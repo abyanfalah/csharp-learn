@@ -37,8 +37,13 @@
 
 		foreach (string car in cars)
 		{
-			Console.WriteLine(car);
+			log(car);
 		}
 
+	}
+
+	private static void log(string word)
+	{
+		Console.WriteLine(word);
 	}
 }
