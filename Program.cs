@@ -21,11 +21,15 @@
 			"mazda"
 		};
 
-		for (int i = 0; i < cars.Length; i++)
+		// for (int i = 0; i < cars.Length; i++)
+		// {
+		// 	Console.WriteLine(cars[i]);
+		// }
+
+		foreach (string car in cars)
 		{
-			Console.WriteLine(cars[i]);
+			Console.WriteLine(car);
 		}
-		Console.WriteLine(cars.Length);
 
 	}
 }
