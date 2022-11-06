@@ -1,0 +1,15 @@
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/first
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/first.deps.json
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/first.runtimeconfig.json
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/first.dll
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/ref/first.dll
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/first.pdb
+/home/abyan/learn/dotnet/csharp/first/obj/Debug/net6.0/first.csproj.AssemblyReference.cache
+/home/abyan/learn/dotnet/csharp/first/obj/Debug/net6.0/first.GeneratedMSBuildEditorConfig.editorconfig
+/home/abyan/learn/dotnet/csharp/first/obj/Debug/net6.0/first.AssemblyInfoInputs.cache
+/home/abyan/learn/dotnet/csharp/first/obj/Debug/net6.0/first.AssemblyInfo.cs
+/home/abyan/learn/dotnet/csharp/first/obj/Debug/net6.0/first.csproj.CoreCompileInputs.cache
+/home/abyan/learn/dotnet/csharp/first/obj/Debug/net6.0/first.dll
+/home/abyan/learn/dotnet/csharp/first/obj/Debug/net6.0/ref/first.dll
+/home/abyan/learn/dotnet/csharp/first/obj/Debug/net6.0/first.pdb
+/home/abyan/learn/dotnet/csharp/first/obj/Debug/net6.0/first.genruntimeconfig.cache

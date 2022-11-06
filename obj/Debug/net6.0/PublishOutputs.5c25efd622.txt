@@ -1,0 +1,5 @@
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/publish/first
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/publish/first.dll
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/publish/first.deps.json
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/publish/first.runtimeconfig.json
+/home/abyan/learn/dotnet/csharp/first/bin/Debug/net6.0/publish/first.pdb
