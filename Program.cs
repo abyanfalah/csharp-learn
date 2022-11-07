@@ -15,9 +15,9 @@
 		Console.WriteLine(bmw.make);
 		bmw.startEngine();
 		bmw.WOT();
-		// bmw.Start(); error
-
-		Car.Start();
+		bmw.getpower();
+		bmw.setpower(1000);
+		// Car.Start();
 
 	}
 

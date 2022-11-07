@@ -21,6 +21,18 @@ class Car
 		Console.WriteLine("Top speed reached");
 	}
 
+	public void getpower()
+	{
+		Console.WriteLine($"{model} has power of: {hp}hp");
+	}
+
+	public void setpower(int n)
+	{
+		Console.WriteLine("adding " + (n - hp) + " of power to " + model);
+		this.hp = n;
+		Console.WriteLine($"{model} power is now: {hp}hp");
+	}
+
 
 	public static void Start()
 	{
