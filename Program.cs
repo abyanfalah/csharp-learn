@@ -5,10 +5,14 @@
 		Console.Clear();
 
 		// int result = sum(100, 400);
-		int result = sum(num2: 45, num1: 15);
-		double result2 = sum(45.5, 15.9);
-		Console.WriteLine(result);
-		Console.WriteLine(result2);
+		// int result = sum(num2: 45, num1: 15);
+		// double result2 = sum(45.5, 15.9);
+		// Console.WriteLine(result);
+		// Console.WriteLine(result2);
+
+		Car bmw = new Car();
+		Console.WriteLine(bmw.model);
+		Console.WriteLine(bmw.make);
 
 
 
