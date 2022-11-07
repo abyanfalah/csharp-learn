@@ -4,17 +4,40 @@
 	{
 		Console.Clear();
 
-		// Console.Write("What is your age right now? ");
+		int result = addFive(100);
+		Console.WriteLine(result);
 
-		// int age = Convert.ToInt16(Console.ReadLine());
-		// Console.WriteLine("Your age is: " + age);
 
-		// Console.ReadLine();
-		// Console.Clear();
 
-		// Console.WriteLine("asdf".Length);
-		// Console.WriteLine("asdf".ToUpper());
+	}
 
+	static int addFive(int num)
+	{
+		return num + 5;
+	}
+
+	private static void log(string word)
+	{
+		Console.WriteLine(word);
+	}
+
+	static void age()
+	{
+
+		Console.Write("What is your age right now? ");
+
+		int age = Convert.ToInt16(Console.ReadLine());
+		Console.WriteLine("Your age is: " + age);
+
+		Console.ReadLine();
+		Console.Clear();
+
+		Console.WriteLine("asdf".Length);
+		Console.WriteLine("asdf".ToUpper());
+	}
+
+	static void array()
+	{
 		string[] cars = {
 			"mazda",
 			"bmw",
@@ -39,11 +62,5 @@
 		{
 			log(car);
 		}
-
-	}
-
-	private static void log(string word)
-	{
-		Console.WriteLine(word);
 	}
 }
