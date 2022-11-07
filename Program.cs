@@ -10,13 +10,11 @@
 		// Console.WriteLine(result);
 		// Console.WriteLine(result2);
 
-		Car bmw = new Car();
+		Car bmw = new Car(carMake: 2001, carModel: "M3 GTR");
 		Console.WriteLine(bmw.model);
 		Console.WriteLine(bmw.make);
-
-
-
-
+		bmw.startEngine();
+		bmw.WOT();
 
 	}
 
