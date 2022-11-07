@@ -1,7 +1,7 @@
 class Car
 {
-	public string model;
-	public int make;
+	public string model { get; }
+	public int make { get; set; }
 
 	private int hp = 500;
 

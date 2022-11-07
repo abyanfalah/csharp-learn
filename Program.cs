@@ -12,6 +12,7 @@
 
 		Car bmw = new Car(carMake: 2001, carModel: "M3 GTR");
 		Console.WriteLine(bmw.model);
+		// bmw.model = "mustang"; model is read-only
 		Console.WriteLine(bmw.make);
 		bmw.startEngine();
 		bmw.WOT();
