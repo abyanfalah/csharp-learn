@@ -1,5 +1,7 @@
 class Animal
 {
+	public Gender gender { get; set; }
+
 	public virtual void breath()
 	{
 		Console.WriteLine("*breaths");
@@ -8,6 +10,11 @@ class Animal
 	public virtual void makeSound()
 	{
 		Console.WriteLine("default sound.wav");
+	}
+
+	public void identifyGender()
+	{
+		Console.WriteLine(gender);
 	}
 }
 

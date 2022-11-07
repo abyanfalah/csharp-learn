@@ -20,14 +20,32 @@
 		// bmw.setpower(1000);
 		// Car.Start();
 
-		Cat tom = new Cat("tom");
-		tom.breath();
-		tom.makeSound();
+		// Cat tom = new Cat("tom");
+		// tom.breath();
+		// tom.makeSound();
+		// tom.gender = Gender.Male;
+		// tom.identifyGender();
 
-		Dog snoop = new Dog("snoop");
-		snoop.breath();
-		snoop.makeSound();
+		// Console.WriteLine();
 
+		// Dog snoop = new Dog("snoop");
+		// snoop.breath();
+		// snoop.makeSound();
+		// snoop.gender = Gender.Female;
+		// snoop.identifyGender();
+
+		string path = "files/text.txt";
+		if (!File.Exists(path))
+		{
+			File.WriteAllText(path, "this new file made by csharp program whohoooo");
+		}
+		else
+		{
+			Console.WriteLine(File.ReadAllText(path));
+			File.WriteAllText(path, "this file updated by csharp program at " + DateTime.Now);
+
+
+		}
 	}
 
 	static int addFive(int num)
