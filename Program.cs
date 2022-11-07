@@ -6,7 +6,9 @@
 
 		// int result = sum(100, 400);
 		int result = sum(num2: 45, num1: 15);
+		double result2 = sum(45.5, 15.9);
 		Console.WriteLine(result);
+		Console.WriteLine(result2);
 
 
 
@@ -23,6 +25,12 @@
 	{
 		return num1 + num2;
 	}
+
+	static double sum(double num1, double num2)
+	{
+		return num1 + num2;
+	}
+
 
 
 	private static void log(string word)
