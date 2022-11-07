@@ -4,8 +4,10 @@
 	{
 		Console.Clear();
 
-		int result = addFive(100);
+		int result = sum(100, 400);
 		Console.WriteLine(result);
+
+
 
 
 
@@ -15,6 +17,12 @@
 	{
 		return num + 5;
 	}
+
+	static int sum(int num1, int num2)
+	{
+		return num1 + num2;
+	}
+
 
 	private static void log(string word)
 	{
