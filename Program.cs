@@ -34,17 +34,24 @@
 		// snoop.gender = Gender.Female;
 		// snoop.identifyGender();
 
-		string path = "files/text.txt";
-		if (!File.Exists(path))
+		// string path = "files/text.txt";
+		// if (!File.Exists(path))
+		// {
+		// 	File.WriteAllText(path, "this new file made by csharp program whohoooo");
+		// }
+		// else
+		// {
+		// 	Console.WriteLine(File.ReadAllText(path));
+		// 	File.WriteAllText(path, "this file updated by csharp program at " + DateTime.Now);
+		// }
+
+		try
 		{
-			File.WriteAllText(path, "this new file made by csharp program whohoooo");
+			File.ReadAllText("./file");
 		}
-		else
+		catch (Exception e)
 		{
-			Console.WriteLine(File.ReadAllText(path));
-			File.WriteAllText(path, "this file updated by csharp program at " + DateTime.Now);
-
-
+			Console.WriteLine("error: " + e.Message);
 		}
 	}
 
