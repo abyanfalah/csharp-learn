@@ -4,7 +4,8 @@
 	{
 		Console.Clear();
 
-		int result = sum(100, 400);
+		// int result = sum(100, 400);
+		int result = sum(num2: 45, num1: 15);
 		Console.WriteLine(result);
 
 
