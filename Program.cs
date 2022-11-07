@@ -10,15 +10,23 @@
 		// Console.WriteLine(result);
 		// Console.WriteLine(result2);
 
-		Car bmw = new Car(carMake: 2001, carModel: "M3 GTR");
-		Console.WriteLine(bmw.model);
-		// bmw.model = "mustang"; model is read-only
-		Console.WriteLine(bmw.make);
-		bmw.startEngine();
-		bmw.WOT();
-		bmw.getpower();
-		bmw.setpower(1000);
+		// Car bmw = new Car(carMake: 2001, carModel: "M3 GTR");
+		// Console.WriteLine(bmw.model);
+		// // bmw.model = "mustang"; model is read-only
+		// Console.WriteLine(bmw.make);
+		// bmw.startEngine();
+		// bmw.WOT();
+		// bmw.getpower();
+		// bmw.setpower(1000);
 		// Car.Start();
+
+		Cat tom = new Cat("tom");
+		tom.breath();
+		tom.makeSound();
+
+		Dog snoop = new Dog("snoop");
+		snoop.breath();
+		snoop.makeSound();
 
 	}
 
